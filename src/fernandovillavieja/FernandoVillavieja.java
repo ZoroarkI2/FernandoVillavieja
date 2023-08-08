@@ -26,9 +26,8 @@ public class FernandoVillavieja {
         }else System.out.println("No sos trolo.");
             
         System.out.println("que tan gei sos, puntuate en una escala de 1 a 5");
-        int num=0;
-        num = leer.nextInt(num);
-        int puntuacion = num;
+        int num;
+        num = leer.nextInt();
         switch(num){
             case 1:
                 System.out.println("un poquito gei");
