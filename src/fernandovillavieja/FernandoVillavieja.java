@@ -16,6 +16,7 @@ public class FernandoVillavieja {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        boolean sosTrolo = true;
         System.out.println("hola tonto");
 
         System.out.println("Escribi bien boludito.");
@@ -23,6 +24,12 @@ public class FernandoVillavieja {
         System.out.println("Sos un tarado bárbaro");
 
         System.out.println("Callate pedazo de salamín mal cortado");
+        
+        if (sosTrolo) {
+            System.out.println("Sos trolo.");
+        }else System.out.println("No sos trolo.");
+            
+        
     }
     
 }
