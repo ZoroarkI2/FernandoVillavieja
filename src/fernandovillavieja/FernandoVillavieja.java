@@ -22,6 +22,7 @@ public class FernandoVillavieja {
 
         System.out.println("Sos un tarado bárbaro");
 
+        System.out.println("Callate pedazo de salamín mal cortado");
     }
     
 }
