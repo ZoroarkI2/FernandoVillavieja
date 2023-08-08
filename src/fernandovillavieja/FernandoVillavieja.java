@@ -1,20 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package fernandovillavieja;
 
-/**
- *
- * @author Gabriel
- */
+import java.util.Scanner;
 public class FernandoVillavieja {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
         // TODO code application logic here
         boolean sosTrolo = true;
         System.out.println("hola tonto");
@@ -25,8 +19,10 @@ public class FernandoVillavieja {
 
         System.out.println("Callate pedazo de salamín mal cortado");
         
+        System.out.println("Sos trolo?:");
+        String opc = leer.nextLine();
         if (sosTrolo) {
-            System.out.println("Sos trolo.");
+            System.out.println("Confirmado. Sos trolo. :P");
         }else System.out.println("No sos trolo.");
             
         
