@@ -25,7 +25,27 @@ public class FernandoVillavieja {
             System.out.println("Confirmado. Sos trolo. :P");
         }else System.out.println("No sos trolo.");
             
-        
+        System.out.println("que tan gei sos, puntuate en una escala de 1 a 5");
+        int num=0;
+        num = leer.nextInt(num);
+        int puntuacion = num;
+        switch(num){
+            case 1:
+                System.out.println("un poquito gei");
+                break;
+                case 2:
+                System.out.println("un poquito muy gei");
+                break;
+                case 3:
+                System.out.println("medianamente gei");
+                break;
+                case 4:
+                System.out.println("muy gei");
+                break;
+                case 5:
+                System.out.println("trolazo");
+                break;
+        }
     }
     
 }
